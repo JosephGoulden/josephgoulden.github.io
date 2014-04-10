@@ -181,13 +181,13 @@
                           // good enough to run impress.js properly, sorry...
                           // ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
     
-    if (!impressSupported) {
+   // if (!impressSupported) {
         // we can't be sure that `classList` is supported
-        body.className += " impress-not-supported ";
-    } else {
+    //    body.className += " impress-not-supported ";
+   // } else {
         body.classList.remove("impress-not-supported");
         body.classList.add("impress-supported");
-    }
+   // }
     
     // GLOBALS AND DEFAULTS
     
