@@ -172,7 +172,7 @@
                           // browser should support CSS 3D transtorms 
                            ( pfx("perspective") !== null ) &&
                            
-                           and `classList` and `dataset` APIs
+                          // and `classList` and `dataset` APIs
                            ( body.classList ) &&
                            ( body.dataset ) &&
                            
